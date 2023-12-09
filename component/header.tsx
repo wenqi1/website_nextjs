@@ -127,26 +127,26 @@ const Header: React.FC = () => {
                     </p>
                 </Col>
                 <Col span={1} offset={1}>
-                    <p>Home</p>
+                    <Link href="/" style={{ color: "#181818", fontSize: '14px', fontWeight: 600 }}>Home</Link>
                 </Col>
                 <Col span={1} offset={1}>
                     <Dropdown menu={aboutMenu}>
                         <a
                             onClick={(e) => e.preventDefault()}
-                            style={{ color: "#181818" }}
+                            style={{ color: "#181818", fontSize: '14px', fontWeight: 600 }}
                         >
                             About
                         </a>
                     </Dropdown>
                 </Col>
                 <Col span={1} offset={1}>
-                    <Link href="/product">Product</Link>
+                    <Link href="/product" style={{ color: "#181818", fontSize: '14px', fontWeight: 600 }}>Product</Link>
                 </Col>
                 <Col span={2} offset={1}>
                     <Dropdown menu={customerMenu}>
                         <a
                             onClick={(e) => e.preventDefault()}
-                            style={{ color: "#181818" }}
+                            style={{ color: "#181818", fontSize: '14px', fontWeight: 600 }}
                         >
                             Customer Center
                         </a>
@@ -156,7 +156,7 @@ const Header: React.FC = () => {
                     <Dropdown menu={supportMenu}>
                         <a
                             onClick={(e) => e.preventDefault()}
-                            style={{ color: "#181818" }}
+                            style={{ color: "#181818", fontSize: '14px', fontWeight: 600 }}
                         >
                             Support
                         </a>
@@ -166,7 +166,7 @@ const Header: React.FC = () => {
                     <Dropdown menu={contactMenu}>
                         <a
                             onClick={(e) => e.preventDefault()}
-                            style={{ color: "#181818" }}
+                            style={{ color: "#181818", fontSize: '14px', fontWeight: 600 }}
                         >
                             contact
                         </a>
