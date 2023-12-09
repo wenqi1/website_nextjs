@@ -24,7 +24,7 @@ export default function RootLayout({
             <body className={inter.className}>
                 <StyledComponentsRegistry>
                     <Header />
-                    <div>{children}</div>
+                    {children}
                     <Online/>
                     <Contact/>
                     <Footer/>

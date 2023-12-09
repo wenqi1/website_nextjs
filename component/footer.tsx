@@ -1,17 +1,6 @@
 "use client";
 
 import React from "react";
-import { Col, Row } from "antd";
-import {
-    TwitterOutlined,
-    FacebookOutlined,
-    GooglePlusOutlined,
-    LinkedinOutlined,
-    SkypeOutlined,
-    EnvironmentOutlined,
-    PhoneOutlined,
-    MailOutlined,
-} from "@ant-design/icons";
 
 const Footer: React.FC = () => {
     return (

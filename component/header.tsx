@@ -3,11 +3,12 @@
 import React from "react";
 import type { MenuProps } from "antd";
 import { Dropdown, Row, Col } from "antd";
+import Link from "next/link";
 
 const Header: React.FC = () => {
 
     const handleMenuClick: MenuProps["onClick"] = (e) => {
-        // 路由
+        
     };
 
     const aboutMenu: MenuProps = {
@@ -43,7 +44,7 @@ const Header: React.FC = () => {
                 key: "customer-case",
             },
             {
-                label: "Customer-Feedback",
+                label: "Customer Feedback",
                 key: "customer-feedback",
             },
             {
@@ -139,7 +140,7 @@ const Header: React.FC = () => {
                     </Dropdown>
                 </Col>
                 <Col span={1} offset={1}>
-                    <p>Product</p>
+                    <Link href="/product">Product</Link>
                 </Col>
                 <Col span={2} offset={1}>
                     <Dropdown menu={customerMenu}>

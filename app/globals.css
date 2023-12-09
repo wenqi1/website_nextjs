@@ -9,10 +9,11 @@
     color: blue;
 }
 .div-header{
-    position: fixed;
+    position: sticky;
     z-index: 999;
     height: 50px;
     width: 100%;
+    top: 0px;
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
 }

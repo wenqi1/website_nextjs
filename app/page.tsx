@@ -1,7 +1,6 @@
 import { Carousel, Image, Col, Row } from 'antd';
 
 const contentStyle: React.CSSProperties = {
-	marginTop: '50px',
 	height: '40rem',
 	color: '#fff',
 	lineHeight: '40rem',
